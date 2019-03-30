@@ -66,17 +66,18 @@ header {
   text-transform: uppercase;
 }
 
-
 #particles {
-	height: 300px;
+  height: 300px;
 }
 
 .passion {
-	padding-right: 7em;
+  padding-right: 7em;
 }
+
 .sushi {
-	padding-left: 4em;
+  padding-left: 4em;
 }
+
 /*Services*/
 .services {
   padding-top: 96px;
@@ -369,6 +370,8 @@ time {
 
 .single_image img {
   width: 100%;
+  border: 2px solid #3d3d3d;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .single_image:hover div.image_overlay {
