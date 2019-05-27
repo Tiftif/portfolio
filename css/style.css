@@ -1,3 +1,6 @@
+.body-projet {
+  overflow: auto;
+}
 body {
   font-family: 'Dosis', sans-serif;
 }
@@ -26,7 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-  background: url(../images/header_bg.jpg);
+  background: url(../images/header.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -36,8 +39,8 @@ header {
 }
 
 .home_text {
-  padding-top: 210px;
-  padding-bottom: 210px;
+  padding-top: 115px;
+  padding-bottom: 80px;
 }
 
 .home_text h2 {
@@ -66,8 +69,8 @@ header {
   text-transform: uppercase;
 }
 
-#particles {
-  height: 300px;
+.about_us_p {
+
 }
 
 .passion {
@@ -129,11 +132,13 @@ header {
 }
 
 .about_us_p {
-  font-size: 14px;
+  font-family: "Dosis";
   color: #272727;
   margin-top: 20px;
   margin-bottom: 10px;
-  line-height: 21px;
+  line-height: 38px;
+  font-size: 25px;
+  font-weight: 600;
 }
 
 .about_title h2 {
@@ -298,8 +303,99 @@ time {
 
 .list-group-item {
   background-color: #fafafa;
+  padding: 10px;
+ 
 }
 
+
+
+
+/* friends */
+
+
+.create-post{
+  width: 100%;
+  min-height: 90px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #f1f2f2;
+}
+
+.create-post .form-group{
+  margin-bottom: 0;
+  display: inline-flex;
+}
+
+.create-post .form-group .form-control{
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+
+.create-post .form-group img.profile-photo-md{
+  margin-right: 10px;
+}
+
+.create-post .tools{
+  padding: 8px 0 10px;
+}
+
+.create-post .tools ul.publishing-tools{
+  display: inline-block;
+  text-align:left;
+  margin: 0;
+  padding:5px 0;
+}
+
+.create-post .tools ul.publishing-tools li a{
+  color: #6d6e71;
+  font-size: 18px;
+}
+
+.create-post .tools ul.publishing-tools li a:hover{
+  color: #27aae1;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+/*==================================================
+  Friend List CSS = Newsfeed and Timeline
+  ==================================================*/
+
+  .p-etudiant {
+    font-size: 11px;
+  }
+
+.friend-list .friend-card{
+  border-radius: 4px;
+  border-bottom: 1px solid #f1f2f2;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.friend-list .friend-card .card-info{
+  padding: 0 20px 10px;
+}
+
+.friend-list .friend-card .card-info img.profile-photo-lg{
+  margin-top: -60px;
+  border: 7px solid #fff;
+}
+
+img.profile-photo-lg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.text-green {
+    color: #f7677b;
+}
+           
 /*Fun Facts*/
 .fun_facts {
   background: url(../images/header_bg.jpg);
@@ -309,15 +405,15 @@ time {
 
 .fun_facts .section_overlay {
   background: rgba(71, 71, 71, .8);
-  padding-bottom: 30px;
+  padding-bottom: 250px;
 }
 
 .single_count {
-  padding-top: 120px;
+  padding-bottom: 250px;
 }
 
 .single_count i {
-  color: #f73b56;
+  color: #ef4251;
   font-size: 24px;
 }
 
@@ -331,10 +427,11 @@ time {
 
 .single_count p {
   font-family: 'Dosis', sans-serif;
-  color: #fff;
-  font-size: 14px;
+  color: #212529;
+  font-size: 16px;
   text-transform: uppercase;
   position: relative;
+  font-weight: bold;
 }
 
 .single_count p:before {
@@ -537,6 +634,11 @@ footer {
 .social h2 {
   text-transform: uppercase;
   font-size: 16px;
+}
+
+.icon-list
+{
+  padding: 20px;
 }
 
 ul.icon_list {
