@@ -56,7 +56,6 @@ header {
   text-transform: uppercase;
 }
 
-.home_text img {}
 
 .scroll_down {
   padding-bottom: 50px;
@@ -69,9 +68,6 @@ header {
   text-transform: uppercase;
 }
 
-.about_us_p {
-
-}
 
 .passion {
   padding-right: 7em;
@@ -137,7 +133,7 @@ header {
   margin-top: 20px;
   margin-bottom: 10px;
   line-height: 38px;
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -299,8 +295,38 @@ time {
     border-width: 8px 16px 8px 0;
     border-color: transparent #F45B69 transparent transparent;
   }
-}
+  .single_count {
+    padding-bottom: 0px !important;
+  }
 
+  #HOME {
+    background-position: 45% 0px !important;
+  }
+
+  .baniere {
+    display: none;
+  }
+  .about_us_p {
+    font-size: 11px;
+    text-align: center !important;
+  }
+
+  .single_service { 
+    text-align: center;
+  }
+    .single_image{
+      margin: 10px 0px !important;
+      
+    }
+    .section-two {
+      padding:  0 !important;
+    }
+  }
+ 
+}
+@media (max-width: 640px) {
+
+  }
 .list-group-item {
   background-color: #fafafa;
   padding: 10px;
@@ -308,7 +334,10 @@ time {
 }
 
 
-
+/* Projet */
+.img-resp {
+  width: 100%;
+}
 
 /* friends */
 
@@ -623,10 +652,9 @@ footer {
   padding-bottom: 50px;
 }
 
-.footer_logo {}
-
-.footer_logo img {}
-
+.img-icon  {
+  width: 25px;
+}
 .social {
   padding-top: 65px;
 }
