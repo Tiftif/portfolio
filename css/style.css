@@ -129,13 +129,17 @@ header {
 
 .about_us_p {
   font-family: "Dosis";
-  color: #272727;
+  color: #fdeded;
   margin-top: 20px;
   margin-bottom: 10px;
-  line-height: 38px;
+  line-height: 33px;
   font-size: 16px;
   font-weight: 600;
+  background-color: #f24a56d1;
+  padding: 39px;
+  height: 100%;
 }
+  
 
 .about_title h2 {
   font-size: 25px;
@@ -309,6 +313,7 @@ time {
   .about_us_p {
     font-size: 11px;
     text-align: center !important;
+    height: auto;
   }
 
   .single_service { 
@@ -323,7 +328,7 @@ time {
     }
   }
  
-}
+
 @media (max-width: 640px) {
 
   }
